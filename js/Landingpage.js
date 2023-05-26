@@ -3,12 +3,17 @@
 console.log("jsonData")
 console.log("FucY")
 //Adding color function on click by Priyas32
-  function buttonClick() {
-    console.log('Hi')
-    NavBar=document.getElementsByClassName("s1btn1")
-    NavBar.forEach(element => {
-      console.log(element, "Hellko")
-    });
+  function buttonClick(ele) {
+    NavBar= document.getElementsByClassName("s1btn1");
+    console.log("Hi")
+    for(i=0; i<NavBar.length; i++)
+    {
+      NavBar[i].style.backgroundColor="white";
+      NavBar[i].style.color="black";
+    }
+    document.getElementById(ele).style.backgroundColor="#ff765d"
+    document.getElementById(ele).style.color="white"
+
   }
 
 
