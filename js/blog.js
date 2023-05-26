@@ -1,7 +1,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
     var tbody = document.getElementById("blog");
-  
+
     // fetch function
     fetch("../database/jsonData.json")
       .then(res => res.json())
@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.error('Error:', error);
       });
   });
-  
+
   // create td
   function td_blog(item) {
     console.log("item000", item ,item.id);

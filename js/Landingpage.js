@@ -1,8 +1,15 @@
 // const dataArray = JSON.parse(jsonData);
 // console.log(dataArray)
 console.log("jsonData")
-
-
+console.log("FucY")
+//Adding color function on click by Priyas32
+  function buttonClick() {
+    console.log('Hi')
+    NavBar=document.getElementsByClassName("s1btn1")
+    NavBar.forEach(element => {
+      console.log(element, "Hellko")
+    });
+  }
 
 
 // let tbody = document.getElementById("tbody")
