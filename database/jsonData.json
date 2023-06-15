@@ -444,6 +444,28 @@
                     "content": "The 'Figma for Beginners: The Basics' blog post exceeded my expectations. The author's writing style is engaging and concise, making it easy to grasp the fundamentals of Figma quickly. The step-by-step tutorials were particularly useful, as they allowed me to follow along and practice what I learned. I appreciated the inclusion of tips and shortcuts, which showed me how to work efficiently in Figma. Whether you're a designer or a developer looking to learn Figma, this blog post is a fantastic starting point. It covers all the essential aspects and empowers you to create beautiful designs."
                 }
             ]
+        },
+        {
+            "id": "020", 
+            "title": "Adobe XD:Getting Started",
+            "author": "Arden",
+            "imageurl":"https://cms-assets.tutsplus.com/cdn-cgi/image/width=400/uploads/users/16/courses/1316/preview_image/beginner-to-advanced-with-adobe-xd-auto-animate-400x277.png",
+            "img0":"https://www.pngitem.com/pimgs/m/214-2145309_blank-profile-picture-circle-hd-png-download.png",
+            "date": "2023-05-02",
+            "content": "Adobe XD is a leading design and prototyping tool that has gained popularity among UI/UX designers. With its comprehensive set of features and intuitive interface, XD empowers designers to create interactive prototypes, wireframes, and user interfaces for various digital products. The software enables designers to seamlessly collaborate, iterate, and share their designs with team members and stakeholders. From its powerful design tools to responsive design capabilities and integration with other Adobe products, Adobe XD offers a robust platform for designers to bring their creative visions to life and streamline the design-to-development process.",
+            "tags": ["Adobe XD", "User Experience", "User Interface","Prototyping"," UI/UX Design","Graphic Design"],
+            "comments": [
+                {
+                    "author": "Max",
+                    "date": "2023-05-08",
+                    "content": "Prototype complex interactions and animations effortlessly with Adobe XD's auto-animate and voice interaction features."
+                },
+                {
+                    "author": "Tim",
+                    "date": "2023-05-09",
+                    "content": "Design and prototype with ease using Adobe XD's intuitive interface and comprehensive feature set."
+                }
+            ] 
         }
     
     ] 
