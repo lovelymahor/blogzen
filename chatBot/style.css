@@ -47,7 +47,7 @@
 }
 .chatbot__header {
   position: relative;
-  background-color: #227ebb;
+  background-color: #0f466b;
   text-align: center;
   padding: 16px 0;
 }
@@ -120,7 +120,7 @@
   gap: 5px;
   align-items: center;
   border-top: 1px solid #227ebb;
-  background: #f3f7f8;
+  background: #0f466b;
   padding: 5px 20px;
 }
 .chatbot__textarea {
@@ -137,6 +137,7 @@
 }
 .chatbot__textarea::placeholder {
   font-family: 'Poppins', sans-serif;
+  color:#fff;
 }
 .chatbot__input-box span {
   font-size: 1.75rem;
