@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function() {
         </div>
         <div class="video_section">
             <div class="title">Watch a video</div>
-            <video src="https://www.youtube.com/watch?v=nJZcbidTutE" controls class="video">
+            <video src="" controls >
                 Your browser does not support the video tag.
               </video>
         </div>
@@ -62,4 +62,4 @@ document.addEventListener("DOMContentLoaded", function() {
         `;
         return div;
     }
-  }
+    }

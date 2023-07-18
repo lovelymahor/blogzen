@@ -111,6 +111,11 @@ nav {
     margin-left: 5px;
 }
 
+.calendar_container:hover {
+  background-color: rgb(148, 173, 227);
+  border: 1px solid #208FF4;
+}
+
 .title_container {
     width: 90%;
     margin: 0 auto;
@@ -425,4 +430,7 @@ nav {
      width: 90%;
      height: 50%;
      border-radius: 2rem;
+}
+.icon:hover{
+border-bottom: 2px solid rgb(255, 255, 255);
 }
