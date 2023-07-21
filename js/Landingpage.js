@@ -12,8 +12,35 @@ console.log("FucY")
       NavBar[i].style.color="black";
     }
     document.getElementById(ele).style.backgroundColor="#ff765d"
-    document.getElementById(ele).style.color="white"
-
+    document.getElementById(ele).style.color="white";
+    //
+    var tbody = document.getElementById("tbody");
+    let get = Array.from(document.getElementsByClassName('mainContainer'));
+    get.forEach(element => {
+    element.remove(); 
+    });
+  const john = document.getElementById(ele);
+  // fetch function
+  fetch("../database/jsonData.json")
+  // fetch("http://localhost:3000/blogs")
+    .then(res => res.json())
+    .then(json => {
+      console.log("data1", json);
+      console.log(String(john.innerHTML), "Hello sir bro ")
+      const jack = json.blogs.filter(item => {
+        return item.tags.includes(String(john.innerHTML))
+      })
+      console.log(jack, "jack")
+      jack.map(data => {
+        console.log("data1", data);
+        // tbody.innerHTML += td_fun(data);
+        tbody.append(td_fun(data));
+        
+      });
+    })
+    .catch(error => {
+      console.error('Error:', error);
+    });
   }
 
 //Changes by priya
