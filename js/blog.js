@@ -11,7 +11,8 @@ document.addEventListener("DOMContentLoaded", function() {
         json.blogs.map(data => {
           console.log("data1", data);
           // tbody.innerHTML += td_fun(data);
-          tbody.append(td_blog(data));
+          // tbody.append(td_blog(data));
+         if (data.id === id) tbody.innerHTML = td_blog(data).innerHTML;
         });
       })
       .catch(error => {
