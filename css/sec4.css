@@ -1,4 +1,4 @@
-/* .footer {
+ .footer {
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
@@ -19,6 +19,10 @@
     font-family: 'Poppins', sans-serif;
     font-size: 24px;
     font-weight: 500;
+}
+
+.insta{
+    font-color: white;
 }
 
 .newsletter form {
@@ -70,5 +74,5 @@
     justify-content: space-between;
     width: 60%;
     margin-top: 10px;
-} */
+}
 
